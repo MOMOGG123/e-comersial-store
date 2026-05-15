@@ -1,0 +1,30 @@
+
+
+
+@media only screen and (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+    header .menu {
+        display: block;
+    }
+    .youtube {
+        display: none;
+    }
+    section.one {
+        flex-direction: column;
+    }
+    section.one div.right {
+        margin-top: 40px;
+        width: 100% ;
+         height: 300px;
+        order: -2;
+            background-attachment: scroll;
+            background-size: cover;
+            background-position: bottom;
+    }
+    section.tow div.project div.contner {
+        flex-direction: column;
+        
+    }
+}
